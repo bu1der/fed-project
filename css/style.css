@@ -1,0 +1,47 @@
+body {
+	background-color: rgb(25,25,25);
+}
+
+
+
+.logo {
+	height: 5vh;
+}
+
+.alert {
+	margin: -8%;
+	text-align: center;
+	border-radius: 0;
+
+}
+.form-control {
+	border-radius: 0;	
+}
+
+.btn {
+	border-radius: 0;
+}
+
+.dropdown {
+	background-image: url(../images/background2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 65vh;
+	padding-top: 20%;
+	text-align: center;
+}
+
+.jumbotron {
+	background-color: rgb(25,25,25);
+	text-align: center;
+}
+
+.nav-item {
+	line-height: 45px;
+}
+
+}
+.footer {
+	background-color: #343a40;
+	padding: 3%;
+}
