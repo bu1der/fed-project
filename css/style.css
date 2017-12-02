@@ -45,3 +45,9 @@ body {
 	background-color: #343a40;
 	padding: 3%;
 }
+/*VASYL*/
+/*vacancy*/
+.card_vak:hover{
+	background-color: orange;
+}
+
