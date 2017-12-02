@@ -2,7 +2,9 @@ body {
 	background-color: rgb(25,25,25);
 }
 
-
+.nav-item {
+	line-height: 45px;
+}
 
 .logo {
 	height: 5vh;
@@ -36,7 +38,7 @@ body {
 	text-align: center;
 }
 
-.nav-item {
+.owl-carousel {
 	line-height: 45px;
 }
 
@@ -45,9 +47,3 @@ body {
 	background-color: #343a40;
 	padding: 3%;
 }
-/*VASYL*/
-/*vacancy*/
-.card_vak:hover{
-	background-color: orange;
-}
-
