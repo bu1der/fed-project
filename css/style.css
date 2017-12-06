@@ -12,7 +12,6 @@ body {
 
 .alert {
 	margin: -8%;
-	text-align: center;
 	border-radius: 0;
 
 }
@@ -25,7 +24,7 @@ body {
 }
 
 .dropdown {
-	background-image: url(../images/background2.jpg);
+	background-image: url(../images/v4.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 65vh;
@@ -38,15 +37,45 @@ body {
 	text-align: center;
 }
 
-.owl-carousel {
-	line-height: 45px;
+.card {
+   border-radius: 0;
 }
 
+.owl-carousel {
+  background-color: rgb(217,217,217);
+
+  
 }
+.carousel-img {
+	height: 11vh;
+	padding: 6%;
+}
+
+
 .footer {
 	background-color: #343a40;
 	padding: 3%;
 }
+
+#shiva
+{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(0, 123, 255);
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  float:left;
+  margin:30px;
+}
+.count
+{
+  line-height: 100px;
+  color:white;
+  margin-left:5px;
+  font-size:25px;
+}
+
 /*vasya*/
 #body_admin1{
 	height: 100vmin;

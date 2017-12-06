@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Job Junior</title>
+</head>
+<body id="body_admin1">
+     <!-- Navbar here-->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="about.html"><img class="logo" src="images/logo.png" alt="First slide"></a>
+        <a href="#form_add_company"> <button type="button" class="btn btn-primary btn-lg z-index-100">Додати компанію</button></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">ГОЛОВНА</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="job.html">ВАКАНСІЇ</a>
+            </li>
+          </ul>
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Пошук.." aria-label="Search">
+            <button class="btn btn-primary my-2 my-sm-0" type="submit">ПОШУК</button>
+          </form>
+        </div>
+      </nav>
+      <!--Company-->
+    
+          <div class="container col-sm-12 col-md-8">
+              <div  class="card d-flex bg-light mb-3 p-3 card_vak">
+                  <img class="col-4 align-self-end" src="carousel/bvblogic.png" alt="bvblogic">
+                  <h3 col-4>bvblogic</h3>  
+                  <p>[bvblogic] – українсько-польська IT аутстафінгова та аутсорсингова компанія з центрами розробки в Україні та Польщі. </p>
+                  <form action="" method="post">
+                    <div class="row d-flex justify-content-around">
+                      <button type="button" class="btn btn-warning col-md-2 col-sm-12">Редагувати</button>
+                      <button type="button" class="btn btn-danger col-md-2 col-sm-12">Видалити</button>
+                    </div>
+                  </form>
+              </div>
+              <div  class="card d-flex bg-light mb-3 p-3 card_vak">
+                  <img class="col-4 align-self-end" src="carousel/Eleks.png" alt="Elex">
+                  <h3 col-4>Elex</h3>  
+                  <p>YOUR TECHNOLOGY PARTNER FOR SOFTWARE INNOVATION AND MARKET-LEADING SOLUTIONS</p>
+                  <form action="" method="post">
+                    <div class="row d-flex justify-content-around">
+                      <button type="button" class="btn btn-warning col-md-2 col-sm-12">Редагувати</button>
+                      <button type="button" class="btn btn-danger col-md-2 col-sm-12">Видалити</button>
+                    </div>
+                  </form>
+              </div>
+              <div  class="card d-flex bg-light mb-3 p-3 card_vak">
+                  <img class="col-4 align-self-end" src="carousel/sombra.png" alt="Sombra">
+                  <h3 col-4>Sombra</h3>  
+                  <p>Custom software development that makes you happy</p>
+                  <form action="" method="post">
+                    <div class="row d-flex justify-content-around">
+                      <button type="button" class="btn btn-warning col-md-2 col-sm-12">Редагувати</button>
+                      <button type="button" class="btn btn-danger col-md-2 col-sm-12">Видалити</button>
+                    </div>
+                  </form>
+              </div>
+          </div>  
+        </div>
+       <!-- Add company-->
+      <div class="container" id="form_add_company" >
+            <div class="row">
+              <form class="col-12" >
+                <div class="container">
+                    <div class="row">    
+                        <div class="form-group col-md-6 col-sm12">
+                        <label class="text-light" for="exampleFormControlInput1">Назва компанії</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Введіть назву компанії" name="">
+                        </div>
+                        
+                        <div class="form-group text-light col-md-6 col-sm12">
+                            <label  for="exampleFormControlFile1">Виберіть логотип</label> 
+                            <input type="file" class="form-control-file" id="exampleFormControlFile1">  
+                        </div>    
+                    </div>        
+                        <div class="form-group row">
+                        <label class="text-light" for="exampleFormControlTextarea1">Короткий опис компанії</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <button type="button" name="" class="btn btn-warning m-5">Очистити</button>
+                        <button type="button" name="" class="btn btn-success m-5">Готово!</button>
+                    </div>
+                        
+                </div>        
+              </form>
+            </div>
+          </div>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+  </html>

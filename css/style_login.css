@@ -1,0 +1,16 @@
+body {
+	background-image: url(../images/login.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.form-control {
+	border-radius: 0;	
+}
+
+.btn {
+	border-radius: 0;
+}
+
+
