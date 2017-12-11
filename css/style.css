@@ -1,5 +1,6 @@
-body {
-	background-color: rgb(25,25,25);
+body {	
+	background: -webkit-linear-gradient(90deg, rgb(235, 236, 203), rgb(216, 191, 144));
+	background: linear-gradient(90deg, rgb(235, 236, 203), rgb(216, 191, 144));
 }
 
 .nav-item {
@@ -10,11 +11,8 @@ body {
 	height: 5vh;
 }
 
-.alert {
-	margin: -8%;
-	border-radius: 0;
 
-}
+
 .form-control {
 	border-radius: 0;	
 }
@@ -23,38 +21,15 @@ body {
 	border-radius: 0;
 }
 
-.dropdown {
-	background-image: url(../images/v4.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 65vh;
-	padding-top: 20%;
-	text-align: center;
-}
-
-.jumbotron {
-	background-color: rgb(25,25,25);
-	text-align: center;
-}
-
 .card {
    border-radius: 0;
 }
 
 .owl-carousel {
-  background-color: rgb(217,217,217);
+  background: -webkit-linear-gradient(90deg, rgb(235, 236, 203), rgb(216, 191, 144));
+  background: linear-gradient(90deg, rgb(235, 236, 203), rgb(216, 191, 144));
 
   
-}
-.carousel-img {
-	height: 11vh;
-	padding: 6%;
-}
-
-
-.footer {
-	background-color: #343a40;
-	padding: 3%;
 }
 
 #shiva
@@ -76,6 +51,10 @@ body {
   font-size:25px;
 }
 
+.footer {
+	background-color: #343a40;
+	padding: 3%;
+}
 /*vasya*/
 #body_admin1{
 	height: 100vmin;
