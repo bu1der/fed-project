@@ -96,7 +96,7 @@ div#box {
 	margin-top: 15px;
 }
 
-div#box .box-top {
+div .box .box-top {
 	color: #fff;
 	text-shadow: 0px 1px #000;
 	background-color: #2980b9;
@@ -105,7 +105,7 @@ div#box .box-top {
 	font-weight: 300;
 }
 
-div#box .box-panel {
+div .box .box-panel {
 	padding: 15px;
 	background-color: #fff;
 	color: #333;

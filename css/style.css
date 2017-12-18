@@ -30,7 +30,7 @@ body {
   background: linear-gradient(0deg, rgb(246, 246, 246), rgb(246, 246, 246)); 
 }
 
-#shiva
+.shiva
 {
   width: 200px;
   height: 200px;
@@ -39,7 +39,7 @@ body {
   -webkit-border-radius: 100px;
   border-radius: 100px;
   float:left;
-  margin:50px;
+  
 }
 .count
 {
@@ -51,12 +51,4 @@ body {
 .footer {
 	background-color: #343a40;
 	padding: 3%;
-}
-/*vasya*/
-#body_admin1{
-	height: 100vmin;
-}
-
-#butonu{
-	height: 100vmin;;
 }
